@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<h1>Welcome to the text analyazer. Enter your text below</h1>
+<form action='/analyse' method='get'>
+    <textarea name='text' style='margin: 0px; width: 721px; height: 93px;'></textarea>
+    <br><br>
+    <input type='checkbox' name='removepunc'> REMOVE THE PUNCTUATION </input>
+    <input type='checkbox' name='newlineremover'> it will remove the new line </input>
+    <input type='checkbox' name='extraspaceremover'> it removes extra spaces </input>
+    <input type='checkbox' name='allcaps'> it will capitalize everything </input>
+    <br><br>
+    <button type='submit'> Analyze Text</button>
+
+</form>
+</body>
+</html>
